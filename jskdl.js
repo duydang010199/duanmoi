@@ -1,0 +1,10 @@
+let inputPhysics = prompt("A")
+let inputChemistry = prompt("B")
+let inputBiological = prompt("C")
+let A = parseInt(inputPhysics)
+let B = parseInt(inputChemistry)
+let C = parseInt(inputBiological)
+let Average = (A + B +C) /3
+let Total = A + B + C
+document.write('Avarage='+Average)
+document.write('Total=' + Total)
