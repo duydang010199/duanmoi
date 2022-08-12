@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <script>
+      let average = parseInt(prompt("Điểm Trung Bình"));
+      if (average >= 0 && average <= 10) {
+        if (average >= 5) {
+          if (average >= 7) {
+            if (average >= 8) {
+              if (average >= 9) {
+                alert("Học sinh suất sắc");
+              } else {
+                alert("Học sinh giỏi");
+              }
+            } else {
+              alert("Học sinh khá");
+            }
+          } else {
+            alert("Học sinh trung bình");
+          }
+        } else {
+          alert("Học sinh yếu");
+        }
+      } else {
+        alert("Nhập lại.");
+      }
+
+      /*let A = parseInt(prompt("Điểm Trung Bình"));
+      switch (A >= 9 ? 9 : A >= 8 ? 8 : A >= 7 ? 7 : A >= 5 ? 5 : A) {
+        case 9:
+          alert("Học sinh suất sắc");
+          break;
+        case 8:
+          alert("Học sinh giỏi");
+          break;
+        case 7:
+          alert("Học sinh khá");
+          break;
+        case 5:
+          alert("Học sinh trung bình");
+          break;
+        default:
+          alert("Học sinh yếu");
+      }*/
+      /*let A = parseInt(prompt("Điểm Trung Bình"));
+      if (A >= 9) {
+        alert("Học sinh suất sắc");
+      }
+      if (A >= 8 && A < 9) {
+        alert("Học sinh giỏi");
+      }
+      if (A >= 7 && A < 8) {
+        alert("Học sinh khá");
+      }
+      if (A >= 5 && A < 7) {
+        alert("Học sinh trung bình");
+      }
+      if (A < 5) {
+        alert("Học sinh yếu");
+      }*/
+    </script>
+  </body>
+</html>
